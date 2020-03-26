@@ -1,0 +1,26 @@
+.media
+  overflow: hidden
+  --color-light: var(--card-light)
+  --color-dark: var(--card-dark)
+  border: 1px var(--color-dark) solid
+  outline: var(--border-thin) solid transparent
+  outline-offset: calc(var(--border-thin) * -1)
+  color: var(--color-dark)
+
+.media.invert
+  color: var(--color-light)
+  background-color: var(--color-dark)
+
+.media > *
+  display: flex
+  flex-wrap: wrap
+
+.media > * > *
+  margin: calc(var(--s1) / 2)
+  flex-basis: 15%
+  flex-grow: 1
+
+.media > * > :last-child
+  flex-basis: 0
+  flex-grow: 999
+  min-width: calc(80% - var(--s1))

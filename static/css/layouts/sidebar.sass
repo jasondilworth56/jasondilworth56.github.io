@@ -1,0 +1,24 @@
+// https://absolutely.every-layout.dev/layouts/sidebar/
+
+.with-sidebar
+    overflow: hidden
+
+.with-sidebar > *
+    display: flex
+    flex-wrap: wrap
+    margin: calc(var(--s1) / 2 * -1)
+
+.with-sidebar > * > *
+    margin: calc(var(--s1) / 2)
+    flex-grow: 1
+    flex-basis: 15rem
+
+.with-sidebar:not(.right) > * > :last-child
+    flex-basis: 0
+    flex-grow: 999
+    min-width: calc(55% - var(--s1))
+
+.with-sidebar.right > * > :first-child
+    flex-basis: 0
+    flex-grow: 999
+    min-width: calc(55% - var(--s1))

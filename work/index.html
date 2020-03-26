@@ -1,0 +1,106 @@
+
+<!DOCTYPE html><html class="no-js" lang="en"><head><meta charset="utf-8" /><title>
+            
+                Work
+            
+            
+                
+                    - Jason Dilworth
+                
+            
+        </title><meta name="description" content="" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta property="og:url"                content="https://www.jasondilworth.co.uk/work/" /><meta property="og:type"               content="website" /><meta property="og:title"              content="Work" /><meta property="og:description"        content="" /><meta property="og:image"              content="https://jason-dilworth.s3.amazonaws.com/media/original_images/work.jpg" /><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@jasondilworth56"><meta name="twitter:creator" content="@jasondilworth56"><meta name="twitter:title" content="Work"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://jason-dilworth.s3.amazonaws.com/media/original_images/work.jpg"><link rel="stylesheet" type="text/css" href="https://jason-dilworth.s3.amazonaws.com/static/css/style.css"><link rel="shortcut icon" type="image/png" href="https://jason-dilworth.s3.amazonaws.com/static/favicon.ico"/></head><body class="template-blogindexpage"><section class="cover with-peek" style="overflow: hidden; background-image: url('https://jason-dilworth.s3.amazonaws.com/media/images/work.width-2400.jpg'); background-size: cover; background-position: 50%;"><nav><div><div><a href="/"><img src="https://jason-dilworth.s3.amazonaws.com/static/logo-micro.png" alt="Jason Dilworth"></a></div><div class="cluster" id="menu" style="font-size: 0.6em"><ul style="list-style: none; padding: 0;"><li><a href="/work/">Work</a></li><li><a href="/fun/">Fun</a></li><li><a href="/blog/">Blog</a></li><li><a href="/contact/">Contact</a></li></ul></div></div></nav><div class="box centered" style="border: 0; background-color: rgba(0,0,0,0.5); color: #fff; transform: rotate(-2deg); width: 100%; position: relative; left: -1.5%;"><h1 style="margin: var(--s1);">Work</h1></div></section><section class="container"><div class="rich-text"><p>I have had, and continue to have, a working life that straddles fairly equally between programming and marketing. My early programming skills came in handy during the bulk of my marketing career, allowing me to automate menial tasks or find efficiency and accuracy in others. Now that I&#x27;m working more on building products, my marketing experience helps me to build them in a marketable way from the ground up. </p><p>I am available for consultative or service based work in any of these areas:</p></div></section><section><div class="grid" data-min="20rem" style="align-items: center;"><div class="box invert stack" style="--space: var(--s-3); position: relative;"><div class="frame"><img alt="web-performance.jpg" height="281" src="https://jason-dilworth.s3.amazonaws.com/media/images/web-performance.max-500x500.jpg" width="500"></div><h4><a href="/work/web-performance/" class="stretched-link">Web Performance</a></h4></div><div class="box invert stack" style="--space: var(--s-3); position: relative;"><div class="frame"><img alt="marketing.jpg" height="400" src="https://jason-dilworth.s3.amazonaws.com/media/images/marketing.max-500x500.jpg" width="500"></div><h4><a href="/work/marketing/" class="stretched-link">Marketing</a></h4></div><div class="box invert stack" style="--space: var(--s-3); position: relative;"><div class="frame"><img alt="development.jpg" height="333" src="https://jason-dilworth.s3.amazonaws.com/media/images/development.max-500x500.jpg" width="500"></div><h4><a href="/work/development/" class="stretched-link">Development</a></h4></div></div></section><section><div class="box center" style="border: 0;">
+                &copy; Jason Dilworth 2020
+                <br><a href="/contact/">Contact</a></div></section><script type="text/javascript" src="https://jason-dilworth.s3.amazonaws.com/static/js/jd.js"></script><script>
+            function observeGrid(gridNode) {
+            // Feature detect ResizeObserver
+                if ('ResizeObserver' in window) {
+                    // Get the min value from data-min="[min]"
+                    const min = gridNode.dataset.min;
+                    // Create a proxy element to measure and convert
+                    // the `min` value (which might be em, rem, etc) to `px`
+                    const test = document.createElement('div');
+                    test.style.width = min;
+                    gridNode.appendChild(test);
+                    const minToPixels = test.offsetWidth;
+                    gridNode.removeChild(test);
+
+                    const ro = new ResizeObserver(entries => {
+                    for (let entry of entries) {
+                        // Get the element's current dimensions
+                        const cr = entry.contentRect;
+                        // `true` if the container is wider than the minimum
+                        const isWide = cr.width > minToPixels;
+                        // toggle the class conditionally
+                        gridNode.classList.toggle('aboveMin', isWide);
+                    }
+                    });
+
+                    ro.observe(gridNode);
+                }
+            }
+            const grids = document.querySelectorAll('.grid');
+            grids.forEach(function(grid){
+                observeGrid(grid);
+            })
+
+            (function() {
+                const className = 'reel';
+                const reels = Array.from(document.querySelectorAll(`.${reel}`));
+                const toggleOverflowClass = elem => {
+                elem.classList.toggle('overflowing', elem.scrollWidth > elem.clientWidth);
+                };
+            
+                for (let reel of reels) {
+                if ('ResizeObserver' in window) {
+                    new ResizeObserver(entries => {
+                    toggleOverflowClass(entries[0].target);
+                    }).observe(reel);
+                }
+            
+                if ('MutationObserver' in window) {
+                    new MutationObserver(entries => {
+                    toggleOverflowClass(entries[0].target);
+                    }).observe(reel, {childList: true});
+                }
+                }
+            })();
+            
+        </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-16690448-9"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-16690448-9');
+        </script><script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ItemList",
+    "@id": "https://www.jasondilworth.co.uk/work/",
+    "url": "https://www.jasondilworth.co.uk/work/",
+    "name": "Work",
+    "itemListElement": [
+        
+        {
+            "@type": "Thing",
+            "@id": "https://www.jasondilworth.co.uk/work/web-performance/",
+            "url": "https://www.jasondilworth.co.uk/work/web-performance/",
+            "headline": "Web Performance"
+        },
+        
+        {
+            "@type": "Thing",
+            "@id": "https://www.jasondilworth.co.uk/work/marketing/",
+            "url": "https://www.jasondilworth.co.uk/work/marketing/",
+            "headline": "Marketing"
+        },
+        
+        {
+            "@type": "Thing",
+            "@id": "https://www.jasondilworth.co.uk/work/development/",
+            "url": "https://www.jasondilworth.co.uk/work/development/",
+            "headline": "Development"
+        }
+        
+    ]
+}
+</script></body></html>

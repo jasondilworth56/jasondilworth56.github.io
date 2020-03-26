@@ -1,0 +1,31 @@
+.reel
+  display: flex
+  height: auto
+  overflow-x: auto
+  overflow-y: hidden
+  scrollbar-color: #fff #000
+
+.reel::-webkit-scrollbar
+  height: 1rem
+
+.reel::-webkit-scrollbar-track
+  background-color: var(--card-dark)
+
+.reel::-webkit-scrollbar-thumb
+  background-color: var(--card-dark)
+  background-image: linear-gradient(var(--card-dark) 0, var(--card-dark) 0.25rem, #fff 0.25rem, #fff 0.75rem, var(--card-dark) 0.75rem)
+
+.reel > *
+  flex: 0 0 auto
+  margin-bottom: 0.5em
+
+.reel > img
+  height: 100%
+  flex-basis: auto
+  width: auto
+
+.reel > * + *
+  margin-left: 1rem
+
+.reel.overflowing
+  padding-bottom: 1rem

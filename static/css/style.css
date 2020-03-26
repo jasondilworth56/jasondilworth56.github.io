@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+:root {
+  --font-plain: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-special: "Roboto Slab", Barlow Condensed, Helvetica, sans-serif;
+  --font-mono: Menlo, Courier, Courier New, Andale Mono, monospace;
+  --color-dark: #285114;
+  --color-darkish: #478E23;
+  --color-lightish: #97DB70;
+  --color-light: #C1EEAD;
+  --color-mid: #66CC33;
+  --card-dark: #545454;
+  --card-light: #e2e2e2;
+  --ratio: 1.3;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+  --measure: 60ch;
+  --line-height: var(--ratio);
+  --line-height-small: calc(0.8 * var(--ratio));
+  --border-thin: var(--s-5);
+  --border-thick: var(--s-2);
+  line-height: var(--line-height);
+  font-size: calc(0.5vw + 1em);
+  font-family: var(--font-plain);
+  color: #262626;
+}
+
+* {
+  max-width: var(--measure);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer,
+section {
+  max-width: none;
+  margin: 0;
+}
+
+html {
+  background-color: #f9f9f9;
+}
+
+section {
+  padding: var(--s1);
+}
+
+section + section {
+  padding-bottom: 0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+  line-height: var(--line-height-small);
+  font-family: var(--font-special);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--s4);
+}
+
+h2 {
+  font-size: var(--s3);
+}
+
+h3 {
+  font-size: var(--s2);
+}
+
+h4 {
+  font-size: var(--s1);
+}
+
+main > ol,
+main > ul,
+aside > ol,
+aside > ul {
+  padding-left: 2em;
+}
+
+main > * + * {
+  margin-top: var(--s3);
+}
+
+main p + p {
+  margin-top: var(--s-1);
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  color: var(--color-mid);
+  hover-color: var(--color-lightish);
+}
+
+.comment {
+  background-color: var(--card-light);
+  padding: var(--s-5);
+}
+.comment p {
+  margin: 0;
+}
+
+#comment-form input, #comment-form textarea {
+  padding: var(--s-4);
+  width: 100%;
+  border-color: var(--card-dark);
+  border-style: solid;
+  border-width: thin;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 60%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+.box, .box--full-width {
+  --color-light: var(--card-light);
+  --color-dark: var(--card-dark);
+  padding: var(--s1);
+  border: 1px var(--color-dark) solid;
+  outline: var(--border-thin) solid transparent;
+  outline-offset: calc(var(--border-thin) * -1);
+  color: var(--color-dark);
+}
+.box--full-width {
+  padding: 0;
+}
+
+.box.invert, .invert.box--full-width {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.center {
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--measure);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.center.with-text {
+  text-align: center;
+}
+
+.center.with-headings h1, .center.with-headings h2, .center.with-headings h3, .center.with-headings h4, .center.with-headings h5, .center.with-headings h6 {
+  text-align: center;
+}
+
+.center.guttered {
+  padding-left: var(--s1);
+  padding-right: var(--s1);
+}
+
+.container {
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--measure);
+}
+
+.cluster, .tags, nav {
+  --space: var(--s1);
+  overflow: hidden;
+}
+
+.cluster > *, .tags > *, nav > * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: calc(var(--space) / 2 * -1);
+}
+
+.cluster > * > *, .tags > * > *, nav > * > * {
+  margin: calc(var(--space) / 2);
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--s0));
+  padding: 0;
+  padding-bottom: var(--s0);
+}
+.cover.with-peek {
+  min-height: 75vh;
+}
+
+.cover > * {
+  margin-top: var(--s0);
+  margin-bottom: var(--s0);
+}
+
+.cover > :first-child:not(.centered) {
+  margin-top: 0;
+}
+
+.cover > :last-child:not(.centered) {
+  margin-bottom: 0;
+}
+
+.cover > .centered {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.frame {
+  --n: 9;
+  --d: 16;
+  padding-bottom: calc(var(--n) / var(--d) * 100%);
+  position: relative;
+}
+
+.frame > * {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame > img,
+.frame > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-gap: var(--s0);
+  grid-template-columns: 100%;
+}
+.grid.reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.grid.aboveMin {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+@supports (width: min(20rem, 100%)) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  }
+}
+.media {
+  overflow: hidden;
+  --color-light: var(--card-light);
+  --color-dark: var(--card-dark);
+  border: 1px var(--color-dark) solid;
+  outline: var(--border-thin) solid transparent;
+  outline-offset: calc(var(--border-thin) * -1);
+  color: var(--color-dark);
+}
+
+.media.invert {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.media > * {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 15%;
+  flex-grow: 1;
+}
+
+.media > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(80% - var(--s1));
+}
+
+nav {
+  padding: var(--s0);
+}
+nav > * {
+  justify-content: space-between;
+  margin: 0;
+}
+nav > * > * {
+  margin: 0;
+  padding: calc(var(--space) / 2);
+}
+nav li a {
+  background-color: var(--color-mid);
+  color: #fff;
+  padding: calc(var(--space) / 2);
+}
+nav li a:hover {
+  background-color: var(--color-darkish);
+}
+
+#menu > * > * {
+  margin: calc(var(--space)) calc(var(--space) / 2);
+}
+
+.with-sidebar {
+  overflow: hidden;
+}
+
+.with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-grow: 1;
+  flex-basis: 15rem;
+}
+
+.with-sidebar:not(.right) > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(55% - var(--s1));
+}
+
+.with-sidebar.right > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(55% - var(--s1));
+}
+
+.stack {
+  --space: 1.5rem;
+}
+
+.stack > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.stack > * + * {
+  margin-top: var(--space);
+}
+
+.stack.recursive * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc((var(--s1) / 2) * -1);
+}
+.switcher.reverse {
+  flex-wrap: wrap-reverse;
+}
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--measure) - (100% - var(--s1))) * 999);
+  margin: calc(var(--s1) / 2);
+}
+
+.switcher .marginless {
+  margin-left: 0;
+  margin-right: 0;
+}
+.switcher .marginless > * {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.switcher > :nth-last-child(n+4),
+.switcher > :nth-last-child(n+4) ~ * {
+  flex-basis: 100%;
+}
+
+.tags {
+  font-size: 0.6em;
+}
+
+.tags > * > * {
+  background-color: var(--color-mid);
+  padding: var(--s-4);
+}
+
+.tags a {
+  color: #fff;
+}
+
+.reel {
+  display: flex;
+  height: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-color: #fff #000;
+}
+
+.reel::-webkit-scrollbar {
+  height: 1rem;
+}
+
+.reel::-webkit-scrollbar-track {
+  background-color: var(--card-dark);
+}
+
+.reel::-webkit-scrollbar-thumb {
+  background-color: var(--card-dark);
+  background-image: linear-gradient(var(--card-dark) 0, var(--card-dark) 0.25rem, #fff 0.25rem, #fff 0.75rem, var(--card-dark) 0.75rem);
+}
+
+.reel > * {
+  flex: 0 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.reel > img {
+  height: 100%;
+  flex-basis: auto;
+  width: auto;
+}
+
+.reel > * + * {
+  margin-left: 1rem;
+}
+
+.reel.overflowing {
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

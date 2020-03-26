@@ -1,0 +1,20 @@
+// https://absolutely.every-layout.dev/layouts/box/
+
+.box
+    --color-light: var(--card-light)
+    --color-dark: var(--card-dark)
+    padding: var(--s1)
+    border: 1px var(--color-dark) solid
+    outline: var(--border-thin) solid transparent
+    outline-offset: calc(var(--border-thin) * -1)
+    color: var(--color-dark)
+    &--full-width
+        @extend .box
+        padding: 0
+
+//.box * 
+//    color: inherit
+
+.box.invert 
+    color: var(--color-light)
+    background-color: var(--color-dark)

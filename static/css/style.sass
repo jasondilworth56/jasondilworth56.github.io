@@ -1,0 +1,145 @@
+// Some root values
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap')
+\:root
+  --font-plain: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif
+  --font-special: 'Roboto Slab', Barlow Condensed, Helvetica, sans-serif
+  --font-mono: Menlo, Courier, Courier New, Andale Mono, monospace
+  --color-dark: #285114
+  --color-darkish: #478E23
+  --color-lightish: #97DB70
+  --color-light: #C1EEAD
+  --color-mid: #66CC33
+  --card-dark: #545454
+  --card-light: #e2e2e2
+  --ratio: 1.3
+  --s-5: calc(var(--s-4) / var(--ratio))
+  --s-4: calc(var(--s-3) / var(--ratio))
+  --s-3: calc(var(--s-2) / var(--ratio))
+  --s-2: calc(var(--s-1) / var(--ratio))
+  --s-1: calc(var(--s0) / var(--ratio))
+  --s0: 1rem
+  --s1: calc(var(--s0) * var(--ratio))
+  --s2: calc(var(--s1) * var(--ratio))
+  --s3: calc(var(--s2) * var(--ratio))
+  --s4: calc(var(--s3) * var(--ratio))
+  --s5: calc(var(--s4) * var(--ratio))
+  --measure: 60ch
+  --line-height: var(--ratio)
+  --line-height-small: calc(0.8 * var(--ratio))
+  --border-thin: var(--s-5)
+  --border-thick: var(--s-2)
+  line-height: var(--line-height)
+  font-size: calc(0.5vw + 1em)
+  font-family: var(--font-plain)
+  color: hsl(0, 0%, 15%)
+
+*
+  max-width: var(--measure)   
+
+img 
+  max-width: 100%
+  height: auto
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer,
+section
+  max-width: none
+  margin: 0
+
+html
+  background-color: #f9f9f9
+
+section
+  padding: var(--s1)
+    
+section + section
+  padding-bottom: 0
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4
+  line-height: var(--line-height-small)
+  font-family: var(--font-special)
+  font-weight: 700
+
+h1
+  font-size: var(--s4)
+
+h2
+  font-size: var(--s3)
+
+h3
+  font-size: var(--s2)
+
+h4
+  font-size: var(--s1)
+
+main > ol,
+main > ul,
+aside > ol,
+aside > ul
+  padding-left: 2em
+
+main > * + *
+  margin-top: var(--s3)
+
+main p + p
+  margin-top: var(--s-1)
+
+.stretched-link::after 
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1
+  pointer-events: auto
+  content: ""
+  background-color: rgba(0, 0, 0, 0)
+
+a
+  color: var(--color-mid)
+  hover:
+    color: var(--color-lightish)
+
+.comment
+  background-color: var(--card-light)
+  padding: var(--s-5)
+  p
+    margin: 0
+
+#comment-form input, #comment-form textarea
+  padding: var(--s-4)
+  width: 100%
+  border-color: var(--card-dark)
+  border-style: solid
+  border-width: thin
+  box-sizing: border-box
+  font-size: 0.75rem
+
+.iframe-container
+  overflow: hidden
+  padding-top: 60%
+  position: relative
+ 
+.iframe-container iframe
+   border: 0
+   height: 100%
+   left: 0
+   position: absolute
+   top: 0
+   width: 100%
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 
+  padding-top: 75%
+
+@import layouts

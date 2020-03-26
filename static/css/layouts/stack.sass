@@ -1,0 +1,16 @@
+// https://absolutely.every-layout.dev/layouts/stack/
+
+.stack
+    --space: 1.5rem
+
+.stack > *
+    margin-top: 0
+    margin-bottom: 0
+
+.stack > * + *
+    margin-top: var(--space)
+
+.stack.recursive *
+    margin-top: 0
+    margin-bottom: 0
+
