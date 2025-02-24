@@ -1,0 +1,11 @@
+{
+  "version": "v2.0.0",
+  "notes": "Initial 2.0 release",
+  "pub_date": "2025-02-24T22:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNbzhFNUxtUWJWOHdHWXAyc0ROUVZBaEdqbDlOUFZHQk1GUGNTc0FjTzl5SkZDOVd5ai9aNFVYc1pPNG01VUlWRFlsQkhKS2l0ZEtKMXdibjQ3WGpjYXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwNDM1MjM1CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC4wX3g2NF9lbi1VUy5tc2kuemlwCnhhQ0RFVzgzM0g5VE40UnBreTJxb3NuYldhK0FzbVpOaGthaW5Ma0VGWkdQRndrWlBQamp3RVI0Nm9naG5lUnJUMmVmeE51bUROM3REdUFLSHdGZkNRPT0K",
+      "url": "https://backend.nomadsimracing.co.uk/documents/47/NOMAD_Helper_2.0.0_x64_en-US.msi.zip"
+    }
+  }
+}
