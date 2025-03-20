@@ -1,11 +1,11 @@
 {
-  "version": "v2.0.2",
-  "notes": "Fixes a Driver related bug",
-  "pub_date": "2025-03-20T18:52:00Z",
+  "version": "v2.0.3",
+  "notes": "Bug fixes for multiple sessions run and error handling",
+  "pub_date": "2025-03-20T21:28:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNbzR3bW5ta0ZCN2xTNnh6TXkzZlIyM0RWSm5lMTNSQUJhZzhGeE1WRXdaQWU4REcrUUJmNThCRGcvVXJZV01FZ0dTT0FqQmhuZkZIbndEcDdjZitxSWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQyNDk2NTE4CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC4yX3g2NF9lbi1VUy5tc2kuemlwCk1UekxRcWVvTlJKUmtSOHVxUjM5VFYwWjhPb0M0RXlUcFRsWDlwOVQ5RWIwaGxVWUpzVU5oU0N5N29tWnYzTFlOZzFWWGNJS2FDbHIwWlVQZks0MkRRPT0K",
-      "url": "https://backend.nomadsimracing.co.uk/documents/49/NOMAD_Helper_2.0.2_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNbzdjY1ZUTkxFTEFZQ0ZwdmFGM21uRWM3aEkyRy9XY29veGREVkJWUWYwdGJpK0gyek5sSThDMncvYjFwZzJ1dFplZFVGNmdBNmptRS9DZWtHZ0s5NmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQyNTA2MDA3CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC4zX3g2NF9lbi1VUy5tc2kuemlwClVKbDlFek9NdWVZZGprUG51L1Z0bGVDSlJ6VGE3aHJvaXBQTTlJS1diWWlSTCs3Z0xsaE5MVDZSYldNSUNKL1ZFUkY2dXh3T0hHSDI2bW82L2Noc0RRPT0K",
+      "url": "https://backend.nomadsimracing.co.uk/documents/50/NOMAD_Helper_2.0.3_x64_en-US.msi.zip"
     }
   }
 }
