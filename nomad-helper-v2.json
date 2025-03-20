@@ -1,11 +1,11 @@
 {
-  "version": "v2.0.1",
-  "notes": "Includes system tray updates",
-  "pub_date": "2025-02-25T11:45:00Z",
+  "version": "v2.0.2",
+  "notes": "Fixes a Driver related bug",
+  "pub_date": "2025-03-20T18:52:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNbzNPVGh6dUIxZFlRS1ZUYTV1cXdKcE01UHBhWkg5NW5DWFJXdmJMM080MGl4Rkd1NHp1ckNBcEFmRVJpOEdubUhxWkVDY1E0QUNqUTRZUUt1ZGR0WEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwNDgzOTEzCWZpbGU6Tk9NQUQgSGVscGVyXzIuMC4xX3g2NF9lbi1VUy5tc2kuemlwCjRLblBmYi94bXRpUXEzUzRaWXFHVGpZWkdvUlptNGUvSFprVmF1cG13NzlmY3JzWWRWM0xtUE5JY1lXSEJDNG03R0dMaUlnYjFtWGFxdE5PQ1FPY0R3PT0K",
-      "url": "https://backend.nomadsimracing.co.uk/documents/48/NOMAD_Helper_2.0.1_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNbzR3bW5ta0ZCN2xTNnh6TXkzZlIyM0RWSm5lMTNSQUJhZzhGeE1WRXdaQWU4REcrUUJmNThCRGcvVXJZV01FZ0dTT0FqQmhuZkZIbndEcDdjZitxSWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQyNDk2NTE4CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC4yX3g2NF9lbi1VUy5tc2kuemlwCk1UekxRcWVvTlJKUmtSOHVxUjM5VFYwWjhPb0M0RXlUcFRsWDlwOVQ5RWIwaGxVWUpzVU5oU0N5N29tWnYzTFlOZzFWWGNJS2FDbHIwWlVQZks0MkRRPT0K",
+      "url": "https://backend.nomadsimracing.co.uk/documents/49/NOMAD_Helper_2.0.2_x64_en-US.msi"
     }
   }
 }
