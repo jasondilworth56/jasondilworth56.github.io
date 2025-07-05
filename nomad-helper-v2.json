@@ -1,7 +1,7 @@
 {
   "version": "v2.0.6",
   "notes": "Improve panic handling, thread performance, and logging",
-  "pub_date": "2025-07-05T14:04:00Z",
+  "pub_date": "2025-07-05T12:04:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNb3pJdUZyLzVOWXovOStOOCtOSHNXTlFzcmE4UWdiY0N6cVhIL3owRVg3QUQxblhQcjdORGVQTjZpMXA1MVZvdFF0c0IvTnozT0VTbTFONWc3ZmxNWndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUxNzE5NTAwCWZpbGU6Tk9NQUQgSGVscGVyXzIuMC42X3g2NF9lbi1VUy5tc2kKZXR5dlljMTR4a1AyZ2pvMTZOOHpOcDl0OHNQeXBIbTcyVVE0Y2l1RlRHY1Zrek1Gb1h3dTV3ZGFRTjU4c0hrUnRjWDFjKzdPbUJKSnFPajF4c1ZoQ1E9PQo=",
