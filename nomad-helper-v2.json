@@ -1,11 +1,11 @@
 {
-  "version": "v2.0.5",
-  "notes": "Adds necessary OpenSSL resources",
-  "pub_date": "2025-07-02T22:04:00Z",
+  "version": "v2.0.",
+  "notes": "Improve panic handling, thread performance, and logging",
+  "pub_date": "2025-07-05T14:04:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNb3dHVlMreHdjRzhmOExreWZGWmZCN3BiUU93aTdRNG5iRU93bTNURmErMHBpUlNBaysyejQ5RjJxUmdpTWhUcXc3ZFRvaENGL3JZNGFyeHpzODRtendRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUxNDg5Njc4CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC41X3g2NF9lbi1VUy5tc2kKckRaK25TeGNkM1d6QjZ6QnRTc1RRd3QxZUR1WkZlRG54SitCN2pWMmZ1OHJkMFN3QVhmaEtBNXV1cjNWM1RXV2ptTDJyMDZLYkdPanZsY3F5ZERBRFE9PQo=",
-      "url": "https://backend.nomadsimracing.co.uk/documents/53/NOMAD_Helper_2.0.5_x64_en-US.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUNzdoS05XM0xNb3pJdUZyLzVOWXovOStOOCtOSHNXTlFzcmE4UWdiY0N6cVhIL3owRVg3QUQxblhQcjdORGVQTjZpMXA1MVZvdFF0c0IvTnozT0VTbTFONWc3ZmxNWndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUxNzE5NTAwCWZpbGU6Tk9NQUQgSGVscGVyXzIuMC42X3g2NF9lbi1VUy5tc2kKZXR5dlljMTR4a1AyZ2pvMTZOOHpOcDl0OHNQeXBIbTcyVVE0Y2l1RlRHY1Zrek1Gb1h3dTV3ZGFRTjU4c0hrUnRjWDFjKzdPbUJKSnFPajF4c1ZoQ1E9PQo=",
+      "url": "https://backend.nomadsimracing.co.uk/documents/54/NOMAD_Helper_2.0.6_x64_en-US.zip"
     }
   }
 }
