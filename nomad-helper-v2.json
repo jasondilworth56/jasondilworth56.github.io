@@ -1,11 +1,11 @@
 {
-  "version": "v2.0.7",
-  "notes": "Fix session transition",
-  "pub_date": "2025-07-05T17:04:00Z",
+  "version": "v2.0.8",
+  "notes": "Reimplement auto-update",
+  "pub_date": "2025-07-07T17:04:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ2ZEZ0lKQ2Y5U2RXYUxDVjhXY2M2M1hoRy8zOUxNcE9KTytyVUVyRXZud1VZRFZlTHdYMEkybmJ0V2Z2WC9wS2d6TStyYnphU3duaXBVOFBGOGVhU1VkQVplOTFjRWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUxODM5Njc5CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC43X3g2NF9lbi1VUy5tc2kKb0MxNE9mZE9NZWZrWGU1Z1ZrcG4yVXdaSHoyZ0dMUHVSTjR5ZnloU2E4d0NCQ21DL01vUzhGRFBIQUt5THMzWUhrNUxiY2FqTmhHQWZ0Rk5zNk9rQVE9PQo=",
-      "url": "https://backend.nomadsimracing.co.uk/documents/55/NOMAD_Helper_2.0.7_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ2ZEZ0lKQ2Y5U2NmVHdXbTlEWjJtQTNra2FRalJvRTMvc05yMVF0djRxN3RRTFppL1I2QVJQMXd5ZXpwaTBQNTRZSm1rWTdSbjdBMUhKVXJHUnJTVE5MbVRXYlMzb1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUxOTA1NjAzCWZpbGU6Tk9NQUQgSGVscGVyXzIuMC44X3g2NF9lbi1VUy5tc2kKRHlVejlEMnN5b1g4MDVOZHA0bkQxSzNKeXZ0RGdXWGpaZjl2WktqYnc4QUx1aW1SLzBqQ3hSK1doSytFUmJxRmlCMkVUc3ZmdWVQUUNpUFNwSjdJQlE9PQo=",
+      "url": "https://backend.nomadsimracing.co.uk/documents/56/NOMAD_Helper_2.0.8_x64_en-US.msi"
     }
   }
 }
