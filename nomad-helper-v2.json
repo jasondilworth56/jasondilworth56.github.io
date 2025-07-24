@@ -5,7 +5,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ2ZEZ0lKQ2Y5U2FGS1ozRTFWVlFURTNVVkRZdXlTeWtTeFNIM1hVL2k1MDAwWDZjeEN4RTgyT3kxY0hhRHk4eDVGTFlhQXJ6Zng3NzFLOTF6VFUwY2R2NVoyRHNLalE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzUzMzk2NjA1CWZpbGU6Tk9NQUQgSGVscGVyXzIuMC45X3g2NF9lbi1VUy5tc2kKN2tndVZ1ZzdFRUFFb3ZsUVduL2h3QlBlc3FzQWxPT2tGbWN1d3hiVkNwK3RXUUdYZnh3OUg1NUp3MjJBdVlCM3g0cStQL3YxVGg3Y1ZMaGcrU0RQQ2c9PQo==",
-      "url": "https://backend.nomadsimracing.co.uk/documents/57/NOMAD_Helper_2.0.9_x64_en-US.zip"
+      "url": "https://nomad-v2-media.s3.amazonaws.com/documents/NOMAD_Helper_2.0.9_x64_en-US.zip"
     }
   }
 }
